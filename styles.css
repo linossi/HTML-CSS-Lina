@@ -1,0 +1,39 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.image-wrapper {
+    display: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    padding-right: 40px;
+
+}
+
+.image-container {
+    display: flex-start;
+    flex-direction:row;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size:larger;
+    line-height: 1.7;
+
+    
+}
+
+.image-1 {
+    width: 300px;
+    float:right;
+    padding-right:20px;
+    padding-left:20px;
+    margin-left: 20px;
+
+}
